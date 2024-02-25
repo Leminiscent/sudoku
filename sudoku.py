@@ -96,3 +96,7 @@ def main():
         [1, 7, 0, 0, 0, 6, 0, 0, 5],
     ]
     Board.solve_sudoku(puzzle)
+
+
+if __name__ == "__main__":
+    main()
