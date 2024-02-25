@@ -27,3 +27,6 @@ class Board:
             else:
                 board_string += lower_lines
         return board_string
+    
+    def find_empty_cell(self):
+        pass
