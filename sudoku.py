@@ -9,5 +9,6 @@ class Board:
         board_string = upper_lines
         for index, line in enumerate(self.board):
             row_list = []
-            for square_no, part in enumerate([line[:3], line[3:6], line[6:]], start = 1):
-                pass
+            for square_no, part in enumerate([line[:3], line[3:6], line[6:]], start=1):
+                joined_part = "|".join(str(item) for item in part)
+                row_list.append(joined_part)
