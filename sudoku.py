@@ -18,4 +18,5 @@ class Board:
             row_empty = row.replace('0', ' ')
             board_string += row_empty
             if index < 8:
-                pass
+                if index % 3 == 2:
+                    pass
