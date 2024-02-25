@@ -27,7 +27,7 @@ class Board:
             else:
                 board_string += lower_lines
         return board_string
-    
+
     def find_empty_cell(self):
         for row, contents in enumerate(self.board):
             try:
@@ -36,3 +36,6 @@ class Board:
             except ValueError:
                 pass
         return None
+
+    def valid_in_row(self, row, num):
+        pass
