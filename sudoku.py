@@ -53,4 +53,5 @@ class Board:
         return True
 
     def is_valid(self, empty, num):
-        pass
+        row, col = empty
+        valid_in_row = self.valid_in_row(row, num)
