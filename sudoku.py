@@ -26,3 +26,4 @@ class Board:
                     board_string += middle_lines
             else:
                 board_string += lower_lines
+        return board_string
