@@ -73,4 +73,5 @@ class Board:
             return False
 
     def solve_sudoku(board):
-        pass
+        gameboard = Board(board)
+        print(f"\nPuzzle to solve:\n{gameboard}")
