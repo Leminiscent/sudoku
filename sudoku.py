@@ -71,3 +71,6 @@ class Board:
                         return True
                     self.board[row][col] = 0
             return False
+
+    def solve_sudoku(board):
+        pass
