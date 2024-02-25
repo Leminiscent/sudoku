@@ -80,3 +80,4 @@ class Board:
             print(gameboard)
         else:
             print("\nThe provided puzzle is unsolvable.")
+        return gameboard
